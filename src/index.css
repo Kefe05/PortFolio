@@ -1,0 +1,54 @@
+/* Css Variables */
+:root{
+  --baby-powder : #FDFFFC;
+  --dark-blue : #153451;
+  --red: #C1292E;
+  --yellow: #F1D302;
+  --black: #020100;
+}
+
+a{
+ color: black;
+ text-decoration: none;
+}
+
+@keyframes slideInTop{
+  from {
+    transform: translateY(-250px);
+  }
+  to{
+       transform: translateY(0);
+  }
+}
+@keyframes slideInLeft{
+  from {
+    transform: translateX(-300px);
+  }
+  to{
+       transform: translateX(0);
+  }
+}
+@keyframes slideInRight{
+  from {
+    transform: translateX(300px);
+  }
+  to{
+       transform: translateX(0);
+  }
+}
+@keyframes slideInBottom{
+  from {
+    transform: translateY(100vh);
+  }
+  to{
+       transform: translateY(0);
+  }
+}
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  background-color: rgb(31, 30, 32);
+  font-family: "Maven Pro", sans-serif;
+  color: var(--baby-powder)
+}

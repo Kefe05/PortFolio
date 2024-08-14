@@ -1,0 +1,76 @@
+.hero{
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 0;
+  text-align: center;
+  color: var(--baby-powder);
+}
+
+.name{
+  display: flex;
+  gap: 20px;
+
+
+}
+.name h1, .info h2{
+  font-size: 20px;
+  font-size: 25px;
+}
+.from-top{
+  animation-name: slideInTop;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+.from-left{
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0;
+  animation-iteration-count: 1;
+}
+.hero>:nth-child(2){
+  height: 300px;
+  width: 500px;
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+.info{
+  animation-name: slideInBottom ;
+}
+.banker{
+  width: 100%;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.d-me> li{
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+@media (max-width: 750px){
+
+.hero>:nth-child(2){
+  width: 600px;
+}
+.banker{
+  height: 100%;
+}
+  .hero{
+    flex-wrap: wrap-reverse;
+  }
+}
