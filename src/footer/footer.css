@@ -1,0 +1,78 @@
+footer{
+  display: flex;
+  align-items: center;
+  padding: 30px 40px;
+  justify-content: space-around;
+  background: url('../assets/ship.jpg') center;
+  background-size: cover;
+}
+.footer-links{
+  display: flex;
+  align-items: center;
+  font-size: 45px;
+  width: 190px;
+  flex-wrap: wrap;
+}
+
+#footer-logo{
+  width: 50px;
+}
+.footer-links>:first-child,.footer-links>:nth-child(2), .footer-links>:nth-child(3), .footer-links>:last-child{
+  justify-self: center;
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(121,9,33,1) 35%, rgba(128,85,10,1) 100%);
+  border: 3px solid rgb(242, 240, 240);
+  padding: 15px 20px;
+  color: rgb(221, 219, 219);
+  transition: all 0.2s ease-in-out;
+}
+.footer-links>:first-child:hover,
+.footer-links>:nth-child(2):hover, 
+.footer-links>:nth-child(3):hover, 
+.footer-links>:last-child:hover{
+  transform: scale(1.1);
+}
+.footer-links>:first-child{
+  border-top-left-radius: 50px; 
+}
+.footer-links>:nth-child(2){
+  border-top-right-radius: 50px;
+}
+.footer-links>:nth-child(3){
+  border-bottom-left-radius: 50px;
+}
+.footer-links>:last-child{
+  border-bottom-right-radius: 50px;
+}
+
+.contact-ctn{
+  color: rgb(221, 219, 219);
+}
+.contact-ctn form{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#logo-ctn, #footer-contact-btn{
+  outline: none;
+  border: none;
+  padding: 5px 2px;
+  width: fit-content;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,33,1) 35%, rgba(128,85,10,1) 100%);
+}
+#footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#footer-form input{
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 0;
+}
+
+#footer-contact-btn{
+  padding: 13px 19px;
+  color: white;
+}
+

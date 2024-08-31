@@ -1,0 +1,24 @@
+.about-me{
+  padding:30px 100px;
+  color: rgb(221, 219, 219);
+  background-color: rgba(57, 21, 21, 0.352);
+}
+.about-me h1{
+  margin: 0;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom:2px solid rgb(221, 219, 219);
+  width: fit-content;
+  margin: auto;
+}
+.wrt-content{
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+
+.wrt-content p{
+  margin: 0;
+  padding: 10px 0;
+}

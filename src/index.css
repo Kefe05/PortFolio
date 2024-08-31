@@ -1,4 +1,6 @@
 body{
+  background: url(./assets/body.jpg) center;
+  background-size: cover;
   font-family: "open-sans", system-ui;
   padding: 0;
   margin: 0;
@@ -8,6 +10,11 @@ body{
 }
 header, .hero{
   font-family: "Aboreto", system-ui;
+}
+.app-container{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(32, 27, 27, 0.404);
 }
 
 a{

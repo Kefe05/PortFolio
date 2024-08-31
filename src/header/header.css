@@ -11,9 +11,16 @@ header{
 }
 
 
+
 .links{
   display: flex;
   gap: 30px;
+  align-items: center;
+}
+#hamburger-menu{
+  color: white;
+  display: none;
+
 }
 
 .links a{
@@ -23,4 +30,26 @@ header{
 }
 .links a:hover{
   color: rgba(255, 255, 255, 0.542);
+}
+
+.links>:last-child{
+  background-color: white;
+  color: black;
+  padding: 7px 3px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in,
+  color 0.4s ease-in; 
+}
+.links>:last-child:hover{
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+}
+
+@media (max-width: 580px){
+  .navigation-links{
+    display: none;
+  }
+  #hamburger-menu{
+    display: block;
+  }
 }
