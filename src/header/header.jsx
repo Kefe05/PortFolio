@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 
 function Header(){
-  let headerList =  ['Portfolio','About','Skills','Contact']
+  let headerList =  ['Portfolio','About','Skills','Contact', 'Resume']
 
 
   return(

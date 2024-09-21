@@ -1,4 +1,5 @@
 header{
+  font-family: "Nunito Sans", sans-serif;
   background-color: rgb(0, 0, 0);
   padding: 15px 35px;
   display: flex;
@@ -9,13 +10,10 @@ header{
 #logo{
   width: 50px;
 }
-
-
-
 .links{
   display: flex;
   gap: 30px;
-  align-items: center;
+  align-items: center; 
 }
 #hamburger-menu{
   color: white;
@@ -45,7 +43,7 @@ header{
   color: white;
 }
 
-@media (max-width: 580px){
+@media (min-width: 300px) and (max-width: 450px){
   .navigation-links{
     display: none;
   }

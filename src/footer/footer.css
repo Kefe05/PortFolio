@@ -73,6 +73,12 @@ footer{
 
 #footer-contact-btn{
   padding: 13px 19px;
-  color: white;
+  color: #ffffff;
 }
 
+@media (min-width: 300px) and (max-width: 450px){
+ footer{
+  flex-direction: column;
+  gap: 10px;
+ }
+}
